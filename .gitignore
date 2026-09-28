@@ -1,0 +1,22 @@
+# Ignore standard OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore any raw testing data or pcaps to enforce limitations/ethical scope
+*.cap
+*.pcap
+*.csv
+*.netxml
+*.log
+
+evidence-original/
+*.pcapng
+.env
+.env.*
+*.ova
+*.ovf
+*.vmdk
+*.vmem
+*.vmss
+*.vmsn
