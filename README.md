@@ -17,7 +17,7 @@ Kali Linux • VMware • Aircrack-ng • Airodump-ng • Aireplay-ng • IEEE 8
 ## Assessment Workflow
 
 ```mermaid
-graph LR
+flowchart TD
     A["Wireless Environment"] --> B["Adapter Verification"]
     B --> C["Monitor Mode"]
     C --> D["WLAN Discovery"]
